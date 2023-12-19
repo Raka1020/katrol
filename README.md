@@ -1,1 +1,1 @@
-# katrol
+Hitung Katrol
