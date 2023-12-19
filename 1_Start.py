@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Home",page_icon="⭐")
+st.set_page_config(page_title="Katrol")
 st.title("PERHITUNGAN HUKUM NEWTON II PADA KATROL")
 
 st.markdown("""
