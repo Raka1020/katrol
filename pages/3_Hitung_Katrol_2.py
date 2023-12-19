@@ -34,10 +34,7 @@ if st.button("Hitung Hasil"):
     st.success(f'Gaya massa B    :   {gayaB:.2f} Newton')
     st.success(f'Tegangan        :   {t:.2f} Newton')
     if a > 0 :
-        st.success(f'Percepatan      :   {a:.2f} m/s kuadrat, karena percepatan positif maka arah MA ke atas dan MB ke bawah')
-        video = open('video/katrol2.1.mp4','rb')
-        videotest = video.read()
-        st.video(videotest)
+        st.image('video/katrol2.1.gif', caption='', width=600)
     elif a < 0:
         st.success(f'Percepatan      :   {a:.2f} m/s kuadrat, karena percepatan negatif maka arah MA ke bawah dan MB ke atas')
         video = open('video/katrol2.2.mp4','rb')
